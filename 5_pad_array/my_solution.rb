@@ -66,8 +66,8 @@ end
   Eventually I decided to peer-pair with David and we were able to solve the problem together. Working as a
   team helped a lot because we were able to bounce ideas back and fourth. He took the driver position and I
   navigated and we were very open about different ideas. We achieved success on our second try which was very
-  rewarding. We decided to set up a while loop that took the first agrument and concat'ed the second argument
+  rewarding. We decided to set up a while loop that took the first argument and concatenated the second argument
   until the original array was equal in length to the first argument. This worked out perfectly. This was the
-  first time I really used the shovel operator (<<) in a block of code. It was very usefull. I now feel pretty
-  confident in doing simliar challenges like this but I need to get more creative.  
+  first time I really used the shovel operator (<<) in a block of code which was useful. I now feel
+  confident in doing similar challenges like this but I need to get more creative.  
 =end
