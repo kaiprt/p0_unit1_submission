@@ -56,7 +56,7 @@ end
 
 # 4. Reflection
 
-=beging
+=begin
 Both functions are basic and self-explanitory. I did not have any problems with the method "total" but I ran into some issues with the second method.
 Rspec really helped point out my errors and I used this to my advantage. I was simply failing due to the grammar of my returned output. I tweaked the
 code by setting a variable equal to arr and called .join to combine the elements in the array. after this I called .capitalize! to permanently capitalize
