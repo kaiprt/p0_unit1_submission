@@ -49,17 +49,26 @@ end
 
 
 # Person 4
+# => Kai Prout
 def my_array_deletion_method(source, thing_to_delete)
-  #Your code here!
+  source.each do |i|
+    source.delete(i) if i.to_s.include? thing_to_delete
+  end
+  return source
 end
 
 def my_hash_deletion_method(source, thing_to_delete)
-  #Your code here!
-end
+  hash.each do |k, v|
+    result.delete(k, v) if k.to_s.include? thing_to_delete
+  end
+  return hash
+end 
+
 
 # Identify and describe the ruby method you implemented. 
-# 
-#
+# I had trouble trying to get the code to run in my irb. I am not sure if it was the code or an error I was doing while trying to execute it.
+# I do believe this block will work if run properly. The method I implemented takes two arguments (source, thing_to_delete). The method will delete
+# any element in an array or hash that has argument 2 (thing_to_delete) that contains the given character. Feedback is much appreciated.
 #
 
 
